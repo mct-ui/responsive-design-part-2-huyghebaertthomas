@@ -680,6 +680,29 @@ a:focus {
 }
 
 /*
+    Component: Title icon
+    ---
+    Special type of title with icon
+*/
+
+.c-title-icon {
+  display: flex;
+  align-items: flex-start;
+}
+
+.c-title-icon__icon {
+  height: 5em;
+  padding-right: 30px;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+/*
     Utilities: color
     ---
     Utility classes to put specific colors onto elements
